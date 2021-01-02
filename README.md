@@ -50,3 +50,25 @@ The > overwrites the file if it exists or creates it if it doesn't exist.
 $ echo "alias ll='ls-alh'" >> ~/.bashrc
 $ source ~/.bashrc
 $ ll
+
+
+## Excercise 2
+1. Done
+
+2. 
+It reads lines from stdin , launches an interactive finder dialogue, and finally writes selected items to stdout . The key point and difference from tools like GNU find , is its interactive finder dialogue that filters items instantly as you type.
+
+3.
+
+
+4.
+The history command shows a list of the commands entered since you started the session.
+if you need the output of the .bash_history file cat ~/.bash_history
+
+5.
+A symbolic link creates a file in your directory and acts as a shortcut to a file or folder.
+ln is a command-line utility for creating links between files. By default, the ln command creates hard links. To create a symbolic link, use the -s (--symbolic) option.
+ln -s
+
+6.
+diff works by cataloging the changes between the two files or folders. Patch can take those changes, put them in a file, and update older versions with it.
